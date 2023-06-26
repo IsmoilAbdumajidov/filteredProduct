@@ -100,7 +100,7 @@ function detailPage(data) {
         <div class='aspect-[3/2] overflow-hidden cursor-pointer group'>
             <img class='w-full h-full object-cover object-center' src=${data.thumbnail} alt="" />
         </div>
-        <div class="flex flex-col p-4 gap-2 pt-5">
+        <div class="flex flex-col p-4 gap-2 pt-5 flex-1">
             <h1 class='text-3xl font-bold text-slate-900 dark:text-white'>${data.title}</h1>
             <p class='font-bold text-slate-900 dark:text-white'><span class="font-semibold">Brand:</span> ${data.brand}</p>
             <p class='font-semibold text-cyan-500'><span class="font-semibold">Price:</span> $${data.price}</p>
